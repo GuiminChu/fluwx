@@ -139,15 +139,6 @@ NS_ASSUME_NONNULL_BEGIN
             timestamp:(UInt32)timestamp
            completion:(void (^ __nullable)(BOOL success))completion;
 
-
-+ (void)sendPayment:(NSString *)appId
-          PartnerId:(NSString *)partnerId
-           PrepayId:(NSString *)prepayId
-           NonceStr:(NSString *)nonceStr
-          Timestamp:(UInt32)timestamp
-            Package:(NSString *)package
-               Sign:(NSString *)sign
-         completion:(void (^ __nullable)(BOOL success))completion;
 @end
 
 NS_ASSUME_NONNULL_END
